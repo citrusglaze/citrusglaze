@@ -96,7 +96,13 @@ Your prompts never leave your machine. No cloud routing. No third-party servers.
 Find out what you've already leaked:
 
 ```bash
-pip install citrusglaze-scan && citrusglaze-scan
+pip3 install citrusglaze-scan && python3 -m citrusglaze_scan
+```
+
+Or with [pipx](https://pipx.pypa.io/):
+
+```bash
+pipx run citrusglaze-scan
 ```
 
 Scans your Claude Code, Cursor, and Copilot chat histories for secrets you've already sent to AI providers. Takes 15 seconds. [Source code](https://github.com/citrusglaze/citrusglaze-scan).
