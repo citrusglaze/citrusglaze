@@ -14,9 +14,9 @@ CitrusGlaze is local security software that monitors AI tool traffic on your dev
 - Security scan results: stored locally on your device only
 - No accounts, no cloud storage, no server-side processing
 
-## Optional Telemetry
+## Opt-In Data Sharing
 
-Telemetry is **disabled by default**. If you choose to enable it, anonymous product usage metadata (no conversation content) is sent to our analytics provider. You can disable it at any time in Settings.
+All data sharing features are **off by default**. If you explicitly enable a feature that sends data externally, only then does that data leave your device. This includes telemetry, analytics, and any other external communication. You control what is shared and can disable it at any time.
 
 ## Browser Extension
 
