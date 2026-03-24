@@ -2,6 +2,8 @@
 
 # CitrusGlaze
 
+> **⚠️ Beta Release — This software is experimental. APIs and features may change.**
+
 **The AI security proxy that sees everything your tools are sending.**
 
 210+ secret patterns · 39+ AI tools · 100% local · Zero cloud routing
@@ -11,6 +13,15 @@
 </div>
 
 ---
+
+## Install (Beta)
+
+```bash
+brew tap citrusglaze/citrusglaze
+brew install citrusglaze
+```
+
+One command. Setup runs automatically — generates CA cert, configures proxy, starts daemon.
 
 ## What It Does
 
